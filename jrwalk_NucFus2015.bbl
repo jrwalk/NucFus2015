@@ -12,4 +12,62 @@ F.~Wagner, G.~Becker, K.~Behringer, D.~Campbell, A.~Eberhagen, W.~Engelhardt,
   divertor discharges of the {ASDEX} tokamak.
 \newblock {\em Physical Review Letters}, 49(19):1408--1412, Nov 1982.
 
+\bibitem{Kinsey2011}
+J.~E. Kinsey, G.~M. Staebler, J.~Candy, R.~E. Waltz, and R.~V. Budny.
+\newblock {ITER} predictions using the {GYRO} verified and experimentally
+  validated trapped gyro-{Landau} fluid transport model.
+\newblock {\em Nuclear Fusion}, 51(8):083001, 2011.
+
+\bibitem{Huysmans2005}
+G.~T.~A. Huysmans.
+\newblock {ELMs}: {MHD} instabilities at the transport barrier.
+\newblock {\em Plasma Physics and Controlled Fusion}, 47(12B):B165, 2005.
+
+\bibitem{Maget2013}
+P.~Maget, J.-F. Artaud, M.~Bécoulet, T.~Casper, J.~Faustin, J.~Garcia,
+  G.~T.~A. Huijsmans, A.~Loarte, and G.~Saibene.
+\newblock {MHD} stability of the pedestal in {ITER} scenarios.
+\newblock {\em Nuclear Fusion}, 53(9):093011, 2013.
+
+\bibitem{Snyder2002}
+P.~B. Snyder, H.~R. Wilson, J.~R. Ferron, L.~L. Lao, A.~W. Leonard, T.~H.
+  Osborne, A.~D. Turnbull, D.~Mossessian, M.~Murakami, and X.~Q. Xu.
+\newblock Edge localized modes and the pedestal: A model based on coupled
+  peeling--ballooning modes.
+\newblock {\em Physics of Plasmas}, 9(5):2037--2043, 2002.
+
+\bibitem{Zohm1996}
+H.~Zohm.
+\newblock Edge localized modes ({ELMs}).
+\newblock {\em Plasma Physics and Controlled Fusion}, 38(2):105, 1996.
+
+\bibitem{Keilhacker1984}
+M.~Keilhacker, G.~Becker, K.~Bernhardi, A.~Eberhagen, M.~ElShaer, G.~FuBmann,
+  O.~Gehre, J.~Gernhardt, G.~v.~Gierke, E.~Glock, G.~Haas, F.~Karger,
+  S.~Kissel, O.~Kluber, K.~Kornherr, K.~Lackner, G.~Lisitano, G.~G. Lister,
+  J.~Massig, H.~M. Mayer, K.~McCormick, D.~Meisel, E.~Meservey, E.~R. Muller,
+  H.~Murmann, H.~Niedermeyer, W.~Poschenrieder, H.~Rapp, B.~Richter, H.~Rohr,
+  F.~Ryter, F.~Schneider, S.~Siller, P.~Smeulders, F.~Soldner, E.~Speth,
+  A.~Stabler, K.~Steinmetz, K.-H. Steuer, Z.~Szymanski, G.~Venus, O.~Vollmer,
+  and F.~Wagner.
+\newblock Confinement studies in {L} and {H-type} {ASDEX} discharges.
+\newblock {\em Plasma Physics and Controlled Fusion}, 26(1A):49, 1984.
+
+\bibitem{ITER1999}
+{ITER Physics Expert Group on Confinement}, {Transport and ITER Physics Expert
+  Group on Confinement Modelling and Database}, and {ITER Physics Basis
+  Editors}.
+\newblock {Chapter 2}: Plasma confinement and transport.
+\newblock {\em Nuclear Fusion}, 39(12):2175, 1999.
+
+\bibitem{Shimada2007}
+M.~Shimada, D.~J. Campbell, V.~Mukhovatov, M.~Fujiwara, N.~Kirneva, K.~Lackner,
+  M.~Nagami, V.~D. Pustovitov, N.~Uckan, J.~Wesley, N.~Asakura, A.~E. Costley,
+  A.~J.~H. Donn\'e, E.~J. Doyle, A.~Fasoli, C.~Gormezano, Y.~Gribov, O.~Gruber,
+  T.~C. Hender, W.~Houlberg, S.~Ide, Y.~Kamada, A.~Leonard, B.~Lipschultz,
+  A.~Loarte, K.~Miyamoto, V.~Mukhovatov, T.~H. Osborne, A.~Polevoi, and
+  A.~C.~C. Sips.
+\newblock Chapter 1: Overview and summary.
+\newblock {\em Nuclear Fusion}, 47(6):S1, 2007.
+
 \end{thebibliography}
