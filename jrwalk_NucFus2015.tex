@@ -13,6 +13,7 @@
 % remove these for final publication 
 \usepackage{color} 
 \newcommand{\gnote}[1]{\marginpar{\textcolor{red}{\scriptsize{#1}}}}
+\renewcommand{\note}[1]{\textcolor{red}{#1}}
 
 \graphicspath{{./graphics/}{./pdfgraphics/}}  % remove pdfgraphics path for final publication!
 
@@ -28,6 +29,12 @@
 I-mode is a novel alternate high-confinement tokamak regime, notable for the formation of a strong temperature pedestal with associated H-mode-like increase in energy confinement, without the accompanying density pedestal or suppression of particle transport.
 I-mode exhibits a number of attractive features for a tokamak reactor regime, namely (1) an inherent lack of large, deleterious Edge-Localized Modes (ELMs), (2) minimal impurity accumulation and radiative loss compared to conventional H-modes, and (3) an apparent lack of strong degradation of energy confinement with input heating power.  
 Previous analyses of I-mode experiments at Alcator C-Mod have elucidated the pedestal structure in I-mode, particularly in its strong positive response to fueling and input heating power.
+Global performance and confinement responds accordingly to these inputs, with both absolute (\eg plasma stored energy) and normalized (\eg $\beta_N$) metrics responding strongly to fueling and heating power.
+Due to core temperature profile stiffness \note{further effects?}, the very high pedestal temperature in I-mode results in comparable core and global-averaged pressures to H-mode despite the relaxed density profile, although moderate levels of density peaking are still observed.
+The minimal degradation of energy confinement time with heating power in I-mode is also observed empirically, in contrast to the strong ($\tau_E \sim P^{-0.7}$) degradation found in H-mode.
+Following the practices of the multi-machine ITER89 and ITER98 confinement scalings for L-mode and ELMy H-mode respectively, an initial assay at a confinement scaling for I-mode is also presented.
+The single-machine scaling captures the physics observed on Alcator C-Mod \note{ASDEX data influence?}
+\note{something something informs extrapolation to ITER}
 \end{abstract}
 
 \pacs{52.55.Fa,52.55.Tn,52.25.Fi,52.40.Hf,52.35.Py}
@@ -36,7 +43,10 @@ Previous analyses of I-mode experiments at Alcator C-Mod have elucidated the ped
 
 \section{Introduction}\label{sec:intro}
 
-bar \etal \cite{Walk2014}
+Viable \& economical power generation via tokamak magnetic-confinement fusion is characterized by two seemingly-contradictory requirements.
+First, a high level of energy confinement is necessary for the desired level of self-heating by fusion products (\eg ``alpha heating'' for deuterium-tritium fusion) for net energy production.  
+At the same time, particle confinement must be sufficiently low to avoid the deleterious effects of accumulated impurities (both the helium ``fusion ash'' and high-$Z$ materials introduced from eroded plasma-facing surfaces) due to fuel dilution and radiative losses.
+The energy confinement requirement has been achieved in a class of operating regimes, collectively termed ``H-modes'' \cite{Wagner1982}, characterized by the formation of a steep-gradient region at the plasma edge in density, temperature, and pressure, termed the \emph{pedestal}, with H-modes capable of stationary operation requiring a relaxation mechanism on the density pedestal to avoid impurity accumulation.
 
 \section*{References}
 \bibliographystyle{unsrt}

@@ -1,11 +1,15 @@
 \begin{thebibliography}{1}
 
-\bibitem{Walk2014}
-J.~R. Walk, J.~W. Hughes, A.~E. Hubbard, J.~L. Terry, D.~G. Whyte, A.~E. White,
-  S.~G. Baek, M.~L. Reinke, C.~Theiler, R.~M. Churchill, J.~E. Rice, P.~B.
-  Snyder, T.~Osborne, A~Dominguez, and I.~Cziegler.
-\newblock Edge-localized mode avoidance and pedestal structure in {I}-mode
-  plasmas.
-\newblock {\em Physics of Plasmas}, 21(5):056103, 2014.
+\bibitem{Wagner1982}
+F.~Wagner, G.~Becker, K.~Behringer, D.~Campbell, A.~Eberhagen, W.~Engelhardt,
+  G.~Fussmann, O.~Gehre, J.~Gernhardt, G.~v. Gierke, G.~Haas, M.~Huang,
+  F.~Karger, M.~Keilhacker, O.~Kl\"uber, M.~Kornherr, K.~Lackner, G.~Lisitano,
+  G.~G. Lister, H.~M. Mayer, D.~Meisel, E.~R. M\"uller, H.~Murmann,
+  H.~Niedermeyer, W.~Poschenrieder, H.~Rapp, H.~R\"ohr, F.~Schneider,
+  G.~Siller, E.~Speth, A.~St\"abler, K.~H. Steuer, G.~Venus, O.~Vollmer, and
+  Z.~Y\"u.
+\newblock Regime of improved confinement and high beta in neutral-beam-heated
+  divertor discharges of the {ASDEX} tokamak.
+\newblock {\em Physical Review Letters}, 49(19):1408--1412, Nov 1982.
 
 \end{thebibliography}
