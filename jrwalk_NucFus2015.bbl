@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{Wagner1982}
 F.~Wagner, G.~Becker, K.~Behringer, D.~Campbell, A.~Eberhagen, W.~Engelhardt,
@@ -69,5 +69,154 @@ M.~Shimada, D.~J. Campbell, V.~Mukhovatov, M.~Fujiwara, N.~Kirneva, K.~Lackner,
   A.~C.~C. Sips.
 \newblock Chapter 1: Overview and summary.
 \newblock {\em Nuclear Fusion}, 47(6):S1, 2007.
+
+\bibitem{Loarte2003}
+A.~Loarte, G.~Saibene, R.~Sartori, D.~Campbell, M.~Becoulet, L.~Horton,
+  T.~Eich, A.~Herrmann, G.~Matthews, N.~Asakura, A.~Chankin, A.~Leonard,
+  G.~Porter, G.~Federici, G.~Janeschitz, M.~Shimada, and M.~Sugihara.
+\newblock Characteristics of type {I} {ELM} energy and particle losses in
+  existing devices and their extrapolation to {ITER}.
+\newblock {\em Plasma Physics and Controlled Fusion}, 45(9):1549, 2003.
+
+\bibitem{Federici2003}
+G.~Federici, A.~Loarte, and G.~Strohmayer.
+\newblock Assessment of erosion of the {ITER} divertor targets during type {I}
+  {ELMs}.
+\newblock {\em Plasma Physics and Controlled Fusion}, 45(9):1523, 2003.
+
+\bibitem{Baylor2013}
+L.~R. Baylor, N.~Commaux, T.~C. Jernigan, S.~J. Meitner, S.~K. Combs, R.~C.
+  Isler, E.~A. Unterberg, N.~H. Brooks, T.~E. Evans, A.~W. Leonard, T.~H.
+  Osborne, P.~B. Parks, P.~B. Snyder, E.~J. Strait, M.~E. Fenstermacher, C.~J.
+  Lasnier, R.~A. Moyer, A.~Loarte, G.~T.~A. Huijsmans, and S.~Futatani.
+\newblock Reduction of edge localized mode intensity on {DIII-D} by on-demand
+  triggering with high frequency pellet injection and implications for {ITER}.
+\newblock {\em Physics of Plasmas}, 20(8):082513, 2013.
+
+\bibitem{Lang2014}
+P.~T. Lang, A.~Burckhart, M.~Bernert, L.~Casali, R.~Fischer, O.~Kardaun,
+  G.~Kocsis, M.~Maraschek, A.~Mlynek, B.~Pl\"ockl, M.~Reich, F.~Ryter,
+  J.~Schweinzer, B.~Sieglin, W.~Suttrop, T.~Szepesi, G.~Tardini, E.~Wolfrum,
+  D.~Zasche, H.~Zohm, and {the ASDEX Upgrade Team}.
+\newblock {ELM} pacing and high-density operation using pellet injection in the
+  {ASDEX Upgrade} all-metal-wall tokamak.
+\newblock {\em Nuclear Fusion}, 54(8):083009, 2014.
+
+\bibitem{Evans2004}
+T.~E. Evans, R.~A. Moyer, P.~R. Thomas, J.~G. Watkins, T.~H. Osborne, J.~A.
+  Boedo, E.~J. Doyle, M.~E. Fenstermacher, K.~H. Finken, R.~J. Groebner,
+  M.~Groth, J.~H. Harris, R.~J. La~Haye, C.~J. Lasnier, S.~Masuzaki, N.~Ohyabu,
+  D.~G. Pretty, T.~L. Rhodes, H.~Reimerdes, D.~L. Rudakov, M.~J. Schaffer,
+  G.~Wang, and L.~Zeng.
+\newblock Suppression of large edge-localized modes in high-confinement
+  {DIII-D} plasmas with a stochastic magnetic boundary.
+\newblock {\em Physical Review Letters}, 92:235003, Jun 2004.
+
+\bibitem{Evans2006}
+T.~E. Evans, R.~A. Moyer, K.~H. Burrell, M.~E. Fenstermacher, I.~Joseph,
+  A.~Leonard, T.~H. Osborne, G.~Porter, M.~J. Schaffer, P.~B. Snyder, P.~R.
+  Thomas, J.~G. Watkins, and W.~P. West.
+\newblock Edge stability and transport control with resonant magnetic
+  perturbations in collisionless tokamak plasmas.
+\newblock {\em Nature Physics}, 2:419--423, 2006.
+
+\bibitem{Greenwald1999}
+M.~Greenwald, R.~Boivin, P.~Bonoli, R.~Budny, C.~Fiore, J.~Goetz, R.~Granetz,
+  A.~Hubbard, I.~Hutchinson, J.~Irby, B.~LaBombard, Y.~Lin, B.~Lipschultz,
+  E.~Marmar, A.~Mazurenko, D.~Mossessian, T.~Sunn~Pedersen, C.~S. Pitcher,
+  M.~Porkolab, J.~Rice, W.~Rowan, J.~Snipes, G.~Schilling, Y.~Takase, J.~Terry,
+  S.~Wolfe, J.~Weaver, B.~Welch, and S.~Wukitch.
+\newblock Characterization of enhanced {$D_\alpha$} high-confinement modes in
+  {Alcator C-Mod}.
+\newblock {\em Physics of Plasmas}, 6(5):1943--1949, 1999.
+
+\bibitem{Hubbard2001}
+A.~E. Hubbard, R.~L. Boivin, R.~S. Granetz, M.~Greenwald, J.~W. Hughes, I.~H.
+  Hutchinson, J.~Irby, B.~LaBombard, Y.~Lin, E.~S. Marmar, A.~Mazurenko,
+  D.~Mossessian, E.~Nelson-Melby, M.~Porkolab, J.~A. Snipes, J.~Terry,
+  S.~Wolfe, S.~Wukitch, B.~A. Carreras, V.~Klein, and T.~Sunn Pedersen.
+\newblock Pedestal profiles and fluctuations in {C-Mod} enhanced {D}-alpha
+  {H}-modes.
+\newblock {\em Physics of Plasmas}, 8(5):2033--2040, 2001.
+
+\bibitem{Burrell2002}
+K.~H. Burrell, M.~E. Austin, D.~P. Brennan, J.~C. DeBoo, E.~J. Doyle, P.~Gohil,
+  C.~M. Greenfield, R.~J. Groebner, L.~L. Lao, T.~C. Luce, M.~A. Makowski,
+  G.~R. McKee, R.~A. Moyer, T.~H. Osborne, M.~Porkolab, T.~L. Rhodes, J.~C.
+  Rost, M.~J. Schaffer, B.~W. Stallard, E.~J. Strait, M.~R. Wade, G.~Wang,
+  J.~G. Watkins, W.~P. West, and L.~Zeng.
+\newblock Quiescent {H}-mode plasmas in the {DIII-D} tokamak.
+\newblock {\em Plasma Physics and Controlled Fusion}, 44(5A):A253, 2002.
+
+\bibitem{Suttrop2005}
+W.~Suttrop, V.~Hynönen, T.~Kurki-Suonio, P.~T. Lang, M.~Maraschek, R.~Neu,
+  A.~St\"abler, G.~D. Conway, S.~Hacquin, M.~Kempenaars, P.~J. Lomas, M.~F.~F.
+  Nave, R.~A. Pitts, K.-D. Zastrow, {the ASDEX Upgrade team}, and {contributors
+  to the JET-EFDA workprogramme}.
+\newblock Studies of the 'quiescent {H}-mode' regime in {ASDEX Upgrade} and
+  {JET}.
+\newblock {\em Nuclear Fusion}, 45(7):721, 2005.
+
+\bibitem{Whyte2010}
+D.~G. Whyte, A.~E. Hubbard, J.~W. Hughes, B.~Lipschultz, J.~E. Rice, E.~S.
+  Marmar, M.~Greenwald, I.~Cziegler, A.~Dominguez, T.~Golfinopoulos, N.~Howard,
+  L.~Lin, R.~M. McDermott, M.~Porkolab, M.~L. Reinke, J.~Terry, N.~Tsujii,
+  S.~Wolfe, S.~Wukitch, Y.~Lin, and {the Alcator C-Mod Team}.
+\newblock {I}-mode: an {H}-mode energy confinement regime with {L}-mode
+  particle transport in {Alcator C-Mod}.
+\newblock {\em Nuclear Fusion}, 50(10):105005, 2010.
+
+\bibitem{Hubbard2011}
+A.~E. Hubbard, D.~G. Whyte, R.~M. Churchill, I.~Cziegler, A.~Dominguez,
+  T.~Golfinopoulos, J.~W. Hughes, J.~E. Rice, I.~Bespamyatnov, M.~J. Greenwald,
+  N.~Howard, B.~Lipschultz, E.~S. Marmar, M.~L. Reinke, W.~L. Rowan, J.~L.
+  Terry, and {the Alcator C-Mod Group}.
+\newblock Edge energy transport barrier and turbulence in the {I}-mode regime
+  on {Alcator C-Mod}.
+\newblock {\em Physics of Plasmas}, 18(5):056115, 2011.
+
+\bibitem{Walk2014}
+J.~R. Walk, J.~W. Hughes, A.~E. Hubbard, J.~L. Terry, D.~G. Whyte, A.~E. White,
+  S.~G. Baek, M.~L. Reinke, C.~Theiler, R.~M. Churchill, J.~E. Rice, P.~B.
+  Snyder, T.~Osborne, A~Dominguez, and I.~Cziegler.
+\newblock Edge-localized mode avoidance and pedestal structure in {I}-mode
+  plasmas.
+\newblock {\em Physics of Plasmas}, 21(5):056103, 2014.
+
+\bibitem{Walk2014b}
+John~R. Walk.
+\newblock {\em Pedestal Structure and Stability in High-Performance Plasmas on
+  Alcator C-Mod}.
+\newblock {Sc.D.} thesis, Massachusetts Institiute of Technology, 2014.
+
+\bibitem{Hutchinson1994}
+I.~H. Hutchinson, R.~Boivin, F.~Bombarda, P.~Bonoli, S.~Fairfax, C.~Fiore,
+  J.~Goetz, S.~Golovato, R.~Granetz, M.~Greenwald, S.~Horne, A.~Hubbard,
+  J.~Irby, B.~LaBombard, B.~Lipschultz, E.~Marmar, G.~McCracken, M.~Porkolab,
+  J.~Rice, J.~Snipes, Y.~Takase, J.~Terry, S.~Wolfe, C.~Christensen,
+  D.~Garnier, M.~Graf, T.~Hsu, T.~Luke, M.~May, A.~Niemczewski, G.~Tinios,
+  J.~Schachter, and J.~Urbahn.
+\newblock First results from {Alcator C-Mod}.
+\newblock {\em Physics of Plasmas}, 1(5):1511--1518, 1994.
+
+\bibitem{Howard2011}
+N.~T. Howard, M.~Greenwald, and J.~E. Rice.
+\newblock Characterization of impurity confinement on {Alcator C-Mod} using a
+  multi-pulse laser blow-off system.
+\newblock {\em Review of Scientific Instruments}, 82(3):033512, 2011.
+
+\bibitem{Dominguez2012}
+Arturo Dominguez.
+\newblock {\em Study of Density Fluctuations and Particle Transport at the Edge
+  of I-Mode Plasmas}.
+\newblock PhD thesis, Massachusetts Institute of Technology, 2012.
+
+\bibitem{Christiansen1992}
+J.~P. Christiansen, J.~G. Cordey, K.~Thomsen, A.~Tanga, J.~C. DeBoo, D.~P.
+  Schissel, T.~S. Taylor, O.~J. W.~F. Kardaun, F.~Wagner, F.~Ryter, S.~M. Kaye,
+  Y.~Miura, N.~Suzuki, M.~Mori, T.~Matsuda, H.~Tamai, T.~Takizuka, S.-I. Itoh,
+  and K.~Itoh.
+\newblock Global energy confinement {H}-mode database for {ITER}.
+\newblock {\em Nuclear Fusion}, 32(2):291, 1992.
 
 \end{thebibliography}
