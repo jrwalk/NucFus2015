@@ -67,9 +67,50 @@ Good progress has been made in understanding the pedestal structure and stabilit
 However, the development of I-mode as a viable reactor regime requires further understanding of the access and extrapolation of the mode to larger tokamak experiments, and its potential for desirable levels of performance on those devices.
 In this paper, we first review the the responses of pedestal and core profiles (Section~\ref{sec:profiles}), and their impact on normalized performance (\eg volume-averaged $\beta_N$) and confinement.
 Second, following the practices of the ITER89 \cite{Christiansen1992,Yushmanov1990} and ITER98 \cite{ITER1999} exercises, we establish an initial assay into a new confinement scaling for I-mode (Section~\ref{sec:scalings}) encompassing C-Mod data, with connections to empirical observation.
-Lastly, we examine possible extrapolations to larger devices (Section~\ref{sec:extrap})
+Lastly, we examine possible size dependences for the energy confinement, and subsequent extrapolations to larger devices (Section~\ref{sec:extrap}).
+
+\note{add intro section on I-mode access?}
 
 \section{Profiles and Responses}\label{sec:profiles}
+
+\subsection{Pedestal Profiles}\label{subsec:ped}
+
+A firm understanding of the pedestal is necessary for the establishment of the I-mode as a viable reactor regime.
+To this end, a series of dedicated experiments \cite{Walk2014,Walk2014b} was conducted to examine the pedestal structure and stability in I-mode.
+A scan of plasma current from $0.85$ to $1.35\;\mbox{MA}$ in a reversed-field, lower-null shape reveals a strong positive trend of pedestal electron temperature with current (Fig.~\ref{fig:Ip_Te95}) with the I-mode pedestal $T_e$ (for this paper, we use the pedestal parameters evaluated at the 95\% flux surface) meeting or exceeding H-mode levels at comparable plasma current.  
+
+\begin{figure}[ht]
+ \centering
+ \includegraphics[width=0.75\textwidth]{Ip_Te95.pdf}
+ \caption{Pedestal temperature versus plasma current, comparing ELMy H-modes and I-modes.  Notably, I-mode pedestal temperatures meet or exceed H-mode levels at comparable temperature, and trend positively with plasma current.  The spread at fixed current is due to varying power per particle (see Fig.~\ref{fig:Pnebar_Te95})}
+ \label{fig:Ip_Te95}
+\end{figure}
+
+However, there is significant spread at fixed $I_p$, due to the wide variation in input heating power.
+Examining a single current slice (Fig.~\ref{fig:Pnebar_Te95}) at $1.15\;\mbox{MA}$, we see a strong dependence of the pedestal temperature on net heating power, $P_{net} = P_{ICRF} + P_{Ohm} - P_{rad} - dW/dt$, normalized to the density (effectively, input heating power per particle).
+
+\begin{figure}[ht]
+ \centering
+ \includegraphics[width=0.75\textwidth]{Pnebar_Te95_115MA.pdf}
+ \caption{Pedestal temperature versus heating power normalized to average density -- effectively, power per particle -- at $I_p = 1.15\;\mbox{MA}$, illustrating an approximate linear trend of the pedestal $T_e$ with $P_{net}/\overline{n}_e$ ($P_{net} = P_{ICRF} + P_{Ohm} - P_{rad} - dW/dt$)}
+ \label{fig:Pnebar_Te95}
+\end{figure}
+
+In contrast to the temperature pedestal, the L-mode-like density profile in I-mode is set primarily through operator fueling via gas puffing.
+Given sufficient heating power, temperature pedestals can be maintained alongside increased fueling across a broad range.
+Example discharges matched in current, field, and shaping are shown in Fig.~\ref{fig:fuelingprofiles}, spanning a range in fueling and heating power, $\overline{n}_e = 1.0-1.7\times10^{20} \;\mbox{m}^{-3}$, $P_{net} = 2.75-4.10\;\mbox{MW}$.  
+Temperature pedestals are matched across all three discharges despite the variation in fueling levels and edge densities, using consistent power per particle, $P_{net}/\overline{n}_e = 2.4-2.7\;\mbox{MW}/10^{20}\mbox{m}^{-3}$.
+
+\begin{figure}[ht]
+ \centering
+ \includegraphics[width=0.75\textwidth]{fuelingprofiles.pdf}
+ \caption{Three discharges, matched in current ($1.1\;\mbox{MA}$), field ($5.6\;\mbox{T}$), and shaping, fueled to $\overline{n}_e = 1.0, 1.3, 1.7 \times 10^{20} \;\mbox{m}^{-3}$, spanning a large fraction of the density range in the I-mode discharges presented here.  With sufficient heating power ($2.75, 3.65, 4.10 \;\mbox{MW}$), temperature pedestals can be matched across the fueling range.  This corresponds to power-per-particle values of $P_{net}/\overline{n}_e \sim 2.4-2.7 \;\mbox{MW}/10^{20}\mbox{m}^{-3}$.}
+ \label{fig:fuelingprofiles}
+\end{figure}
+
+This behavior is distinct from that found in H-modes on C-Mod -- ELMy H-modes are limited, to good approximation, at a fixed pedestal $\beta_p$ determined by shaping, driving an inverse relationship between pedestal $n_e$ and $T_e$ at a given current, while transport-limited EDA H-modes 
+
+\subsection{Core Profiles}\label{subsec:core}
 
 \section{I-Mode Confinement Scalings}\label{sec:scalings}
 
