@@ -109,14 +109,31 @@ Temperature pedestals are matched across all three discharges despite the variat
 \end{figure}
 
 This behavior is distinct from that found in H-modes on C-Mod -- ELMy H-modes are limited, to good approximation, at a fixed pedestal $\beta_p$ determined by shaping, driving an inverse relationship between pedestal $n_e$ and $T_e$ at a given current, while transport-limited EDA H-modes lack operator control of the pedestal density at a given plasma current.
+Independent control of the pedestal density and temperature profiles allows optimization of the energy confinement, fueling, and impurity venting for improved performance.
+The pedestal $\beta_p$ and global performance may be strongly improved via matched increases in fueling and heating power (maintaining the target $P_{net}/\overline{n}_e$ for the temperature pedestal) after accessing the regime at lower power and density \note{access for ITER?}
+
+\note{add pedestal pressure vs Wmhd?}
 
 \subsection{Core Profiles}\label{subsec:core}
+
+The high pedestal temperature in I-mode, coupled with core profile stiffness (such that higher temperatures supports a steeper marginally-stable $\nabla T_e$), supports very high core temperatures \note{add I-mode $T_e$ stiffness}.
+With a moderate degree of core density peaking (with typical values of $n_{e0}/\langle n_e \rangle \sim 1.1-1.3$, comparable to H-mode) \note{add density peaking}, this supports comparable core and volume-averaged pressures to H-mode despite the comparatively relaxed pressure pedestal, supporting beneficial fusion conditions in the core while avoiding stability issues in the pedestal.  Example density, temperature, and pressure profiles for I-mode and H-mode are shown in Fig.~\ref{fig:coreprof}, illustrating the high core pressure attainable in I-mode despite the relaxed pedestal and lower density.
 
 \begin{figure}[ht]
  \centering
  \includegraphics[width=0.75\textwidth]{coreprof_v3.pdf}
- \caption{}
+ \caption{Profiles in electron density, temperature, and pressure for I-mode and EDA H-mode, with $\pm \sigma$ errorbars indicated by the shaded region.  The H-mode case exhibits a very strong density pedestal, with a somewhat reduced temperature pedestal; the I-mode, in contrast, has a significant temperature pedestal with a relaxed density profile.  While this typically results in a reduced pedestal pressure in I-mode compared to H-mode, core profile stiffness supports very high central temperatures, such that I-mode exhibits comparable or greater core and average pressure despite the relaxed pedestal.}
  \label{fig:coreprof}
+\end{figure}
+
+Accordingly, I-modes on C-Mod inhabit a comparable range in global confinement metrics, as shown in Fig.~\ref{fig:betan_H}.  In both global normalized beta ($\langle \beta_N \rangle = \langle \beta \rangle aB_T/I_p$) and normalized confinement $H_{98}$, the I-mode occupies a comparable range to ELMy H-mode.
+
+
+\begin{figure}[ht]
+ \centering
+ \includegraphics[width=0.75\textwidth]{betan_H_i_e.pdf}
+ \caption{Global normalizezd $\beta_N$ versus confinement factor $H_{98}$ for I-mode and ELMy H-mode.  Despite the relaxed pedestal pressure, I-modes reach comparable average pressures, while maintaining H-mode-like energy confinement.}
+ \label{fig:betan_H}
 \end{figure}
 
 \section{I-Mode Confinement Scalings}\label{sec:scalings}
