@@ -128,7 +128,6 @@ With a moderate degree of core density peaking (with typical values of $n_{e0}/\
 
 Accordingly, I-modes on C-Mod inhabit a comparable range in global confinement metrics, as shown in Fig.~\ref{fig:betan_H}.  In both global normalized beta ($\langle \beta_N \rangle = \langle \beta \rangle aB_T/I_p$) and normalized confinement $H_{98}$, the I-mode occupies a comparable range to ELMy H-mode, indicating competitive levels of global confinement while maintaining desirable ELM stability and impurity confinement behaviors.
 
-
 \begin{figure}[ht]
  \centering
  \includegraphics[width=0.75\textwidth]{betan_H_i_e.pdf}
@@ -137,6 +136,23 @@ Accordingly, I-modes on C-Mod inhabit a comparable range in global confinement m
 \end{figure}
 
 \section{I-Mode Confinement Scalings}\label{sec:scalings}
+
+Due to the complexities inherent in the processes responsible for energy trasport -- both short-wavelength drift-wave turbulence and longer-wavelength MHD processes -- it is difficult to model energy confinement from first principles.
+Rather, it is common to establish empirical scaling laws for energy confinement using a power-law fit to large datasets.
+For example, the ITER89 \cite{Yushmanov1990} and ITER98 \cite{ITER1999} exercises utilized an extensive multi-machine database \cite{Christiansen1992} for L-mode and ELMy H-mode confinement respectively.
+In particular, the ITER98y2 scaling is used as a common baseline for performance in high-confinement regimes, particularly in terms of its normalized factor $H_{98}$ \note{define this?  earlier?}
+
+While the $H_{98}$ factor is commonly used as a figure of merit for high-performance regimes (particularly, ELM-suppressed H-modes developed more recently than the ITER98 scaling exercise), it is, effectively, simply a measurement of the quality of the ITER98 prediction to the data.
+As the ITER98 scaling was constructed using predominantly ELMy H-modes, it implicitly includes the physics of ELM-limited pedestals -- for confinement regimes governed by substantially different physics, this is not necessarily a good prediction.
+While I-mode data is currently largely limited to C-Mod, and is insufficient for a full confinement scaling (particularly, to develop the dependence on machine size), it is nonetheless illustrative to examine a dedicated I-mode confinement scaling.
+
+I-mode energy confinement times are fitted in an ordinary least-squares sense to an ITER98-like power law of the form
+
+\begin{equation}
+ \tau_{I-mode} = C \; I_p^{\alpha_{I_p}} \; B_T^{\alpha_{B_T}} \; \overline{n}_e^{\alpha_{n_e}} \; R^{\alpha_R} \; \varepsilon^{\alpha_\varepsilon} \; \kappa^{\alpha_\kappa} \; P_{loss}^{\alpha_P}
+\end{equation}
+
+\noindent to find free exponents $\alpha_j$ for plasma current $I_p$ in MA, toroidal field $B_T$ in T, line-averaged density $\overline{n}_e$ in $10^{20}\;\mbox{m}^{-3}$, major radius $R$ in m, inverse aspect ratio $\varepsilon$, elongation $\kappa$, and loss power $P_{loss} = P_{Ohm} + P_{ICRF} - dW/dt$ in MW.
 
 \section{Extrapolation to Larger Devices}\label{sec:extrap}
 
