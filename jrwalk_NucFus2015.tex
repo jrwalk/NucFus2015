@@ -153,6 +153,53 @@ I-mode energy confinement times are fitted in an ordinary least-squares sense to
 \end{equation}
 
 \noindent to find free exponents $\alpha_j$ for plasma current $I_p$ in MA, toroidal field $B_T$ in T, line-averaged density $\overline{n}_e$ in $10^{20}\;\mbox{m}^{-3}$, major radius $R$ in m, inverse aspect ratio $\varepsilon$, elongation $\kappa$, and loss power $P_{loss} = P_{Ohm} + P_{ICRF} - dW/dt$ in MW.
+Although the net power $P_{net}$ has been demonstrated to be the more suitable parameter, rather than $P_{loss}$ \cite{Hughes2002}, we use $P_{loss}$ here for consistency with previous scaling exercises, and to enable the use of older I-mode data without consistent measurements of the radiated power.
+However, the radiated power is typically a small fraction of the total power in I-mode ($P_{rad} < 900\;\mbox{kW}$, $P_{rad}/P_{tot} < 20\%$), so this is sufficient for an initial assessment of the confinement.
+
+Results from the fitting exercise are shown in Table~\ref{tab:fits}, containing the values and standard deviations for each exponent, the scale factor $C$, and the $r^2$ coefficient of determination for the fit.
+Fit (a) in the table uses the full parameter list used in the ITER98y2 scaling \note{figure?}.
+However, it is immediately obvious that the size scalings, dependent on major radius $R$ and aspect ratio $\varepsilon$, are not properly captured (denoted by the extreme errorbars on these exponents).
+This is to be expected -- absent meaningful variation in $R$ and $\varepsilon$ in the dataset (which requires multiple machines to produce) these parameters are not well-constrained, and result (a) is over-fitted.
+
+\begin{table}[ht]
+ \centering
+ \begin{tabular}{ccc}
+  \hline
+  $\alpha_j$ & (a) & (b)\\
+  \hline
+  $C$ & $0.040 \pm 0.066$ & $0.014 \pm 0.002$ \\
+ $I_p$ & $0.686 \pm 0.074$ & $0.685 \pm 0.076$ \\
+  $B_T$ & $0.698 \pm 0.075$ & $0.768 \pm 0.072$ \\
+  $\overline{n}_e$ & $-0.077 \pm 0.055$ & $0.017 \pm 0.048$ \\
+  $R$ & $4.219 \pm 4.623$ & \\
+  $\varepsilon$ & $0.127 \pm 1.144$ & \\
+  $\kappa$ & $1.686 \pm 0.398$ & \\
+  $P_{loss}$ & $-0.197 \pm 0.048$ & $-0.286 \pm 0.042$ \\
+  $r^2$ & $0.713$ & $0.685$ \\
+  \hline
+ \end{tabular}
+ \caption{Parameters for the power-law scalings for I-mode energy confinement time $\tau_E$, along with $r^2$ coefficients of determination for the fit.  The full ITER98-like fit (a) is over-constrained, lacking sufficient range in the data to fit $R$, $\varepsilon$, and $\kappa$.  These parameters are omitted in the minimum-complexity fit (b).  Parameters are in the given units: $I_p$ in MA, $B_T$ in T, $\overline{n}_e$ in $10^{20}\;\mbox{m}^{-3}$, $R$ in m, and $P_{loss}$ in MW.  Elongation $\kappa$ and inverse aspect ratio $\varepsilon$ are dimensionless.}
+ \label{tab:fits}
+\end{table}
+
+\begin{table}[ht]
+ \centering
+ \begin{tabular}{ccccc}
+  \hline
+  $\alpha_j$ & ITER89 & ITER98y2 & I-mode & \\
+  \hline
+  $I_p$ & 0.85 & 0.93 & 0.68 & \\
+  $B_T$ & 0.2 & 0.15 & \textcolor{red}{0.77} & \small{\textcolor{red}{much stronger field dependence}}\\
+  $\overline{n}_e$ & 0.1 & 0.41 & 0.01 & \\
+  $P_{loss}$ & -0.5 & -0.69 & \textcolor{red}{-0.27} & \small{\textcolor{red}{weak power degradation}} \\
+  $R$ & 1.5 & 2 &  & \small{need other machine input} \\
+  $\varepsilon$ & 0.3 & 0.5 &  & \\
+  $\kappa$ & 0.5 & 0.78 &  & \\
+  \hline
+ \end{tabular}
+ \caption{Comparison of power-law exponents for the ITER89 and ITER98y2 fits, and the minimum-complexity I-mode fit.  In particular, the I-mode fit exhibits a much stronger dependence on toroidal field, and weaker degradation with input heating power.}
+ \label{tab:compare}
+\end{table}
 
 \section{Extrapolation to Larger Devices}\label{sec:extrap}
 

@@ -225,4 +225,10 @@ P.~N. Yushmanov, T.~Takizuka, K.~S. Riedel, O.~J. W.~F. Kardaun, J.~G. Cordey,
 \newblock Scalings for tokamak energy confinement.
 \newblock {\em Nuclear Fusion}, 30(10):1999, 1990.
 
+\bibitem{Hughes2002}
+J.~W. Hughes, D.~A. Mossessian, A.~E. Hubbard, B.~LaBombard, and E.~S. Marmar.
+\newblock Observations and empirical scalings of the high-confinement mode
+  pedestal on {Alcator C-Mod}.
+\newblock {\em Physics of Plasmas}, 9(7):3019--3030, 2002.
+
 \end{thebibliography}
