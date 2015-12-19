@@ -231,4 +231,10 @@ J.~W. Hughes, D.~A. Mossessian, A.~E. Hubbard, B.~LaBombard, and E.~S. Marmar.
   pedestal on {Alcator C-Mod}.
 \newblock {\em Physics of Plasmas}, 9(7):3019--3030, 2002.
 
+\bibitem{Martin2008}
+Y.~R. Martin, T.~Takizuka, and {the ITPA CDBM H-mode Threshold Database Working
+  Group}.
+\newblock Power requirement for accessing the {H}-mode in {ITER}.
+\newblock {\em Journal of Physics: Conference Series}, 123(1):012033, 2008.
+
 \end{thebibliography}

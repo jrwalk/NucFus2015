@@ -160,6 +160,8 @@ Results from the fitting exercise are shown in Table~\ref{tab:fits}, containing 
 Fit (a) in the table uses the full parameter list used in the ITER98y2 scaling \note{figure?}.
 However, it is immediately obvious that the size scalings, dependent on major radius $R$ and aspect ratio $\varepsilon$, are not properly captured (denoted by the extreme errorbars on these exponents).
 This is to be expected -- absent meaningful variation in $R$ and $\varepsilon$ in the dataset (which requires multiple machines to produce) these parameters are not well-constrained, and result (a) is over-fitted.
+These parameters are omitted in result (b), yielding a minimum-complexity fit on $I_p$, $B_T$, $\overline{n}_e$, and $P_{loss}$.
+The results of this fit are shown in Figure~\ref{fig:taue_cmod}, with the data distinguished between older reversed-field LSN and forward-field USN discharges, as well as a newer dedicated pedestal profile database \cite{Walk2014}.
 
 \begin{table}[ht]
  \centering
@@ -182,16 +184,31 @@ This is to be expected -- absent meaningful variation in $R$ and $\varepsilon$ i
  \label{tab:fits}
 \end{table}
 
+\begin{figure}[ht]
+ \centering
+ \includegraphics[width=0.75\textwidth]{tauE_3_Ploss_sep.pdf}
+ \caption{C-Mod I-mode data from older reversed-field and forward-field databases, as well as the newer dedicated pedestal database, showing measured energy confinement time $\tau_E$ versus the minimum-complexity fit from Table~\ref{tab:fits}.  $R^2$ coefficient of determination for the fit is $0.685$.}
+ \label{fig:taue_cmod}
+\end{figure}
+
+A comparison of the results from the minimum-complexity I-mode fit against the corresponding parameters from the ITER89 and ITER98y2 scalings is shown in Table~\ref{tab:compare}.  
+Notably, the I-mode fit exhibits a much stronger dependence on magnetic field, and weaker degradation of the confinement with heating power, compared to either the L-mode or H-mode fits.
+This is consistent with the observed behavior in I-mode, both on C-Mod and elsewhere.
+The threshold power for the transition to H-mode (which brackets the upper range of the I-mode operational window) typically is strongly elevated with increasing magnetic field \cite{Martin2008}; however, the L-I threshold does not meaningfully vary with magnetic field.
+Thus, the increased magnetic field broadens the operational window for I-mode, as shown in Figure~\ref{fig:Bt_P}.
+The strong dependence of the confinement on $B_T$ may be explained by the more aggressive pedestals possible at higher field while avoiding the H-mode transition.
+Similarly, the weak power degradation in the I-mode $\tau_E$ is reflected in experimental observations of the plasma stored energy in relation to the plasma current and heating power (Figure~\ref{fig:PIp_W}).
+
 \begin{table}[ht]
  \centering
  \begin{tabular}{ccccc}
   \hline
   $\alpha_j$ & ITER89 & ITER98y2 & I-mode & \\
   \hline
-  $I_p$ & 0.85 & 0.93 & 0.68 & \\
+  $I_p$ & 0.85 & 0.93 & 0.69 & \\
   $B_T$ & 0.2 & 0.15 & \textcolor{red}{0.77} & \small{\textcolor{red}{much stronger field dependence}}\\
-  $\overline{n}_e$ & 0.1 & 0.41 & 0.01 & \\
-  $P_{loss}$ & -0.5 & -0.69 & \textcolor{red}{-0.27} & \small{\textcolor{red}{weak power degradation}} \\
+  $\overline{n}_e$ & 0.1 & 0.41 & 0.02 & \\
+  $P_{loss}$ & -0.5 & -0.69 & \textcolor{red}{-0.29} & \small{\textcolor{red}{weak power degradation}} \\
   $R$ & 1.5 & 2 &  & \small{need other machine input} \\
   $\varepsilon$ & 0.3 & 0.5 &  & \\
   $\kappa$ & 0.5 & 0.78 &  & \\
@@ -200,6 +217,38 @@ This is to be expected -- absent meaningful variation in $R$ and $\varepsilon$ i
  \caption{Comparison of power-law exponents for the ITER89 and ITER98y2 fits, and the minimum-complexity I-mode fit.  In particular, the I-mode fit exhibits a much stronger dependence on toroidal field, and weaker degradation with input heating power.}
  \label{tab:compare}
 \end{table}
+
+\begin{figure}[ht]
+ \centering
+ \includegraphics[width=0.75\textwidth]{Bt_Pthres_Cmod_AUG.pdf}
+ \caption{\note{work out caption with Amanda?}}
+ \label{fig:Bt_P}
+\end{figure}
+
+\begin{figure}[ht]
+ \centering
+ \includegraphics[width=0.75\textwidth]{PIp_W_scale.pdf}
+ \caption{I-mode stored energy versus the product of net heating power $P_{net}$ and plasma current $I_p$.  Based on the H-mode confinement scaling, $\tau_E$ is expected to scale linearly with $I_p$, and to show a strong degradation with heating power, $\tau_E \sim I_p \times P^{-0.7}$.  As the stored energy is given by $W \sim P \tau_E$, this should yield $W \sim I_p P_{net}^{0.3}$.  The observed linear trend is consistent with little degradation of $\tau_E$ in I-mode with heating power. \note{exchange for fixed-current version?}}
+ \label{fig:PIp_W}
+\end{figure}
+
+\subsection{Normalized Confinement}\label{subsec:norm}
+
+We may define a normalized confinement factor
+
+\begin{figure}[ht]
+ \includegraphics[width=\textwidth]{betaN_H.pdf}
+ \caption{Confinement normalized to the ITER98y2 (left) and I-mode (right) scalings, versus volume-average $\beta_N$.  In both, a positive trend of normalized confinement with beta is observed, consistent with observations in H-mode.}
+ \label{fig:betaN_H}
+\end{figure}
+
+\begin{figure}[ht]
+ \includegraphics[width=\textwidth]{nebar_H.pdf}
+ \caption{Confinement normalized to the ITER98y2 (left) and I-mode (right) scalings, versus line-averaged density $\overline{n}_e$.  Neither case shows significant degradation of confinement with density (unlike H-mode) although the highest normalized-confinement cases do occur at lower density (largely due to the lower radiated-power fraction in these cases).}
+ \label{fig:nebar_H}
+\end{figure}
+
+\subsection{Covariances}\label{subsec:covar}
 
 \section{Extrapolation to Larger Devices}\label{sec:extrap}
 
