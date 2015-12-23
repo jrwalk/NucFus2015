@@ -191,7 +191,13 @@ The results of this fit are shown in Figure~\ref{fig:taue_cmod}, with the data d
  \label{fig:taue_cmod}
 \end{figure}
 
-A comparison of the results from the minimum-complexity I-mode fit against the corresponding parameters from the ITER89 and ITER98y2 scalings is shown in Table~\ref{tab:compare}.  
+A comparison of the results from the minimum-complexity I-mode fit
+
+\begin{equation}\label{eq:tau_I}
+ \tau_{I-mode} = 0.014 \times I_p^{0.685} \; B_T^{0.768} \; \overline{n}_e^{0.017} \; P_{loss}^{-0.286}
+\end{equation}
+
+ against the corresponding parameters from the ITER89 and ITER98y2 scalings is shown in Table~\ref{tab:compare}.  
 Notably, the I-mode fit exhibits a much stronger dependence on magnetic field, and weaker degradation of the confinement with heating power, compared to either the L-mode or H-mode fits.
 This is consistent with the observed behavior in I-mode, both on C-Mod and elsewhere.
 The threshold power for the transition to H-mode (which brackets the upper range of the I-mode operational window) typically is strongly elevated with increasing magnetic field \cite{Martin2008}; however, the L-I threshold does not meaningfully vary with magnetic field.
@@ -234,7 +240,11 @@ Similarly, the weak power degradation in the I-mode $\tau_E$ is reflected in exp
 
 \subsection{Normalized Confinement}\label{subsec:norm}
 
-We may define a normalized confinement factor
+We may define a normalized confinement factor for the I-mode confinement, analogous to the $H_{98}$ confinement factor, using the fitted $\tau_{I-mode}$ from Equation~\ref{eq:tau_I}:
+
+\begin{equation}
+ H_{I-mode} = \frac{\tau_E}{\tau_{I-mode}}
+\end{equation}
 
 \begin{figure}[ht]
  \includegraphics[width=\textwidth]{betaN_H.pdf}
@@ -247,6 +257,9 @@ We may define a normalized confinement factor
  \caption{Confinement normalized to the ITER98y2 (left) and I-mode (right) scalings, versus line-averaged density $\overline{n}_e$.  Neither case shows significant degradation of confinement with density (unlike H-mode) although the highest normalized-confinement cases do occur at lower density (largely due to the lower radiated-power fraction in these cases).}
  \label{fig:nebar_H}
 \end{figure}
+
+\noindent Trends in $H_{I-mode}$ and $H_{98}$ for I-mode data are shown in Figures~\ref{fig:betaN_H} and \ref{fig:nebar_H}.
+The I-mode scaling preserves the positive trend of normalized confinement with global $\beta_N$ found in H-mode (effectively, this is simply the vertical spread in the data cluster seen in Figure~\ref{fig:taue_cmod})
 
 \subsection{Covariances}\label{subsec:covar}
 
