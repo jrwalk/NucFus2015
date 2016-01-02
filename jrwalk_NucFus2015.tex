@@ -265,24 +265,36 @@ However, the highest normalized confinement cases do occur at the lower end of t
 
 \subsection{Covariances}\label{subsec:covar}
 
+Naturally, in such a scaling exercise covariances between parameters used in the fit are of some concern -- hidden dependences between ostensibly-free variables can skew the results of the power-law fit.
+In the ITER89 and ITER98 scaling exercises, this was addressed in part simply by using as extensive a dataset as possible, ensuring sufficient coverage of a broad range in the chosen parameters.
+For the more limited dataset of C-Mod I-modes used in this exercise, care must be taken to address possible strong covariances in the data parameters.
+
 \begin{figure}[ht]
  \centering
  \includegraphics[width=0.75\textwidth]{Ip_nebar.pdf}
- \caption{}
+ \caption{Plasma current $I_p$ versus line-averaged density $\overline{n}_e$ in the I-mode dataset.  Though there is a general increasing trend of the density with plasma current, the density is sufficiently freely set by fueling (with Greenwald fraction varying between $0.15$ and $0.40$) to avoid strong covariance between $I_p$ and $\overline{n}_e$.}
  \label{fig:Ip_nebar}
 \end{figure}
+
+Covariance between plasma current $I_p$ and line-averaged density $\overline{n}_e$ (Figure~\ref{fig:Ip_nebar}) is to be expected, as the gas-puff fueling system operates with a target density within a range determined by the Greenwald density limit ($n_{Gr} = I_p/(\pi a^2)$) \note{cite}.
+However, within this range the target density in I-mode is generally freely variable, albeit at typically lower Greenwald fractions ($f_{Gr} \sim 0.15-0.40$) -- this is distinct from, for example, transport-limited EDA H-modes on C-Mod, which typically lock to a fixed density set by the plasma current once the H-mode is established \note{cite}.
+As such, while there is a generally-increasing trend of the density with plasma current, the data at any given current point span $>50\%$ of the total density range, with acceptably low covariance between the parameters.
 
 \begin{figure}[ht]
  \centering
  \includegraphics[width=0.75\textwidth]{Ip_Bt.pdf}
- \caption{}
+ \caption{Plasma current $I_p$ versus toroidal field $B_T$ in the I-mode dataset.  A positive trend occurs in the \emph{minimum} $B_T$ at a given current, due to the necessity of minimum edge safety factor.  Beyond that limit, however, I-mode access is tolerant of a range of edge safety factors, with the $2.7 < q_{95} < 5.3$ (with most of the dataset concentrated in $3 < q_{95} < 4$)}
  \label{fig:Ip_Bt}
 \end{figure}
+
+The interplay between toroidal field $B_T$ and plasma current $I_p$ (Figure~\ref{fig:Ip_Bt}) is determined by requirements on the edge safety factor $q_{95} \sim B_T/I_p$.
+As such, there is a distinct positive trend in the \emph{minimum} $B_T$ at a given current with $I_p$, set by the requirements of minimum $q_{95}$ ($q_{95} > 2.7$ in this dataset) set by global kink limits.
+However, above this lower bound I-mode access is largely insensitive to the edge safety factor \note{access section?  include figure?}, allowing the toroidal field to span up to the maximum of the dataset ($\sim 6\;\mbox{T}$) across the current range.
 
 \begin{figure}[ht]
  \centering
  \includegraphics[width=0.75\textwidth]{Bt_Ploss.pdf}
- \caption{}
+ \caption{Toroidal field $B_T$ versus loss power $P_{loss}$ in the I-mode dataset.  The upper bound of $P_{loss}$ available in I-mode is strictly bound by a linear relation with $B_T$, indicative of the upper bound of I-mode access (above this power level, the plasma transitions to H-mode).  However, below this upper bound the data range in $P_{loss}$ is well-covered.}
  \label{fig:Bt_Ploss}
 \end{figure}
 
