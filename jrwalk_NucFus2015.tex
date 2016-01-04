@@ -289,7 +289,7 @@ As such, while there is a generally-increasing trend of the density with plasma 
 
 The interplay between toroidal field $B_T$ and plasma current $I_p$ (Figure~\ref{fig:Ip_Bt}) is determined by requirements on the edge safety factor $q_{95} \sim B_T/I_p$.
 As such, there is a distinct positive trend in the \emph{minimum} $B_T$ at a given current with $I_p$, set by the requirements of minimum $q_{95}$ ($q_{95} > 2.7$ in this dataset) set by global kink limits.
-However, above this lower bound I-mode access is largely insensitive to the edge safety factor \note{access section?  include figure?}, allowing the toroidal field to span up to the maximum of the dataset ($\sim 6\;\mbox{T}$) across the current range.
+However, above this lower bound I-mode access is largely insensitive to the edge safety factor \note{access section?  include figure?}, allowing the toroidal field to span up to the maximum of the dataset ($\sim 6\;\mbox{T}$) across the current range, such that effectively half of the parameter range is well-covered by the dataset.
 
 \begin{figure}[ht]
  \centering
@@ -298,7 +298,47 @@ However, above this lower bound I-mode access is largely insensitive to the edge
  \label{fig:Bt_Ploss}
 \end{figure}
 
+Similarly, the relation between toroidal field $B_T$ and available loss power $P_{loss}$ (Figure~\ref{fig:Bt_Ploss}) is determined by access constraints in I-mode -- more specifically, by the transition from I-mode to H-mode.
+The H-mode transition typically brackets the I-mode operational window from above (although in more recent experiments, the I-mode has been sustained up to the available power ceiling on C-Mod).
+The I-H transition power typically increases roughly linearly with toroidal field, reflected in the bound on the \emph{maximum} loss power at a given $B_T$.
+However, below this maximum the power range is well-covered, particularly in the predominant $5-6\;\mbox{T}$ field range.
+Similar to the field-current relation, effectively half of the parameter range is well-covered by the dataset, leaving only moderate covariance between the parameters, such that the dataset is acceptable for initial efforts at a scaling law.
+
 \section{Extrapolation to Larger Devices}\label{sec:extrap}
+
+Naturally, the primary interest of this initial effort into an I-mode confinement scaling is to examine possible extrapolations to larger, ITER- or reactor-scale devices.
+Absent information on the size dependence in the initial scaling, we cannot definitively establish an extrapolation to larger devices.
+However, using preliminary I-mode data from ASDEX Upgrade \note{cite?}, it is illustrative to explore the range of possible size dependences.
+AUG I-modes are typically more transient than those on C-Mod, with continuously-evolving parameters (particularly, the radiated power fraction) over the course of the I-mode -- as such, they are not well-suited for the stationary data points needed for a confinement scaling.
+However, they may be used to examine the result from the C-Mod-derived scaling.
+
+\begin{figure}[ht]
+ \centering
+ \includegraphics[width=0.75\textwidth]{tauE_Imode_fixed-L-like.pdf}
+ \caption{C-Mod and AUG I-mode energy confinement compared to the confinement scaling, with a fixed L-mode-like size dependence, $\tau_E \sim R^{1.5} \varepsilon^{0.3}$.  The scaling consistently under-predicts the confinement in the typical AUG I-mode range.}
+ \label{fig:Llike}
+\end{figure}
+
+\begin{figure}[ht]
+ \centering
+ \includegraphics[width=0.75\textwidth]{tauE_Imode_fixed-H-like.pdf}
+ \caption{C-Mod and AUG I-mode energy confinement compared to the confinement scaling, with a fixed H-mode-like size dependence, $\tau_E \sim R^2 \sqrt{\varepsilon}$.  The scaling over-predicts the confinement in the typical AUG I-mode range.}
+ \label{fig:Hlike}
+\end{figure}
+
+\begin{figure}[ht]
+ \centering
+ \includegraphics[width=0.75\textwidth]{tauE_Imode_free_R.pdf}
+ \caption{C-Mod and AUG I-mode energy confinement compared to the confinement scaling, with an \emph{ansatz} size dependence of $\tau_E \sim R^{1.8}$.  This is approximately correct for the major-radius dependence of the scaling based on the AUG results.}
+ \label{fig:freeR}
+\end{figure}
+
+\begin{figure}[ht]
+ \centering
+ \includegraphics[width=\textwidth]{tauE_Imode_fixed-H-like_project_detail.pdf}
+ \caption{Extrapolation of the confinement scaling, using the (slightly optimistic) H-mode-like size dependence.}
+ \label{fig:extrap}
+\end{figure}
 
 \section{Conclusions}\label{sec:conclusion}
 
